@@ -31,6 +31,7 @@ body {
   background-color: black;
   color: white;
   font-family: "Fredoka", Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 header {
