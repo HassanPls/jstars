@@ -15,15 +15,18 @@ section {
   justify-content: space-around;
   box-shadow: 0 0 20px rgba(0, 117, 255, 0.94);
 }
+
 .carousel {
   width: 500px;
   height: 300px;
   padding: 0;
 }
+
 .games {
   width: 500px;
   height: 325px;
 }
+
 .card a {
   width: 90%;
   text-align: center;
@@ -35,10 +38,12 @@ section {
   border-radius: 10px;
   text-decoration: none;
 }
+
 .card a:hover {
   transform: scale(1.1);
   transition: 0.5s;
 }
+
 .card ul {
   list-style: none;
 }
