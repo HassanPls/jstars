@@ -6,10 +6,12 @@
 
 ::-webkit-scrollbar {
   width: 10px;
-} ::-webkit-scrollbar-track {
+}
+::-webkit-scrollbar-track {
   background: black;
-} ::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 117, 255, 0.94) ;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 117, 255, 0.94);
   border-radius: 10px;
   border: solid black 3px;
 }
@@ -37,13 +39,8 @@ body {
 header {
   background: linear-gradient(180deg, rgba(0, 117, 255, 0.94) 0%, black 100%);
 }
-
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
+header ul {
+  list-style-type: none;
 }
 
 main img {
@@ -60,27 +57,10 @@ p {
   text-align: justify;
 }
 
-header ul {
-  list-style-type: none;
-}
+
 
 a {
   color: white;
-}
-
-.card a {
-  width: 90%;
-  text-align: center;
-  padding: 5px;
-  margin: 5px;
-  background-color: black;
-  color: white;
-  box-shadow: 0 0 10px black;
-  border-radius: 10px;
-  text-decoration: none;
-}
-.card ul {
-  list-style: none;
 }
 
 #Top {
@@ -89,23 +69,4 @@ a {
   bottom: 20px;
   right: 20px;
   z-index: 99;
-}
-
-.card {
-  width: 450px;
-  height: 400px;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  box-shadow: 0 0 20px rgba(0, 117, 255, 0.94);
-}
-.carousel {
-  width: 500px;
-  height: 300px;
-  padding: 0;
-}
-.games {
-  width: 500px;
-  height: 325px;
 }
