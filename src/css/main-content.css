@@ -24,7 +24,7 @@ section {
 
 .games {
   width: 500px;
-  height: 325px;
+  max-height: 350px;
 }
 
 .card a {
@@ -37,11 +37,15 @@ section {
   box-shadow: 0 0 10px black;
   border-radius: 10px;
   text-decoration: none;
+  transition: transform 0.25s ease-out;
 }
 
 .card a:hover {
-  transform: scale(1.1);
-  transition: 0.5s;
+  transform: scale(1.025);
+}
+
+.card a:active {
+  transform: scale(0.95);
 }
 
 .card ul {
