@@ -3,3 +3,9 @@
     flex-direction: column-reverse !important;
   }
 }
+
+@media only screen and (max-width: 540px) {
+  .games {
+    max-height: none;
+  }
+}

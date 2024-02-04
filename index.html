@@ -3,9 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="A website to show all the really fun games from JStar Group in Roblox and a few more things"
+    />
+    <meta name="keywords" content="roblox, games, jstar" />
     <meta name="author" content="HassanPls" />
+
+    <meta property="og:title" content="JStars - Roblox Group" />
+    <meta
+      property="og:description"
+      content="A website to show all the really fun games from JStar Group in Roblox and a few more things"
+    />
+    <meta property="og:image" content="https://github.com/JAVARINI/jstars/blob/main/src/img/JStarGroupImage.png" />
+    <meta property="og:url" content="https://javarini.github.io/jstars/" />
+
     <title>JStar</title>
 
     <link
@@ -43,7 +56,7 @@
     </header>
 
     <main>
-      <section class="my-5">
+      <section id="Home" class="my-5">
         <h2>Home</h2>
         <div
           class="container-fluid d-flex flex-wrap justify-content-center align-items-center"
@@ -62,12 +75,15 @@
           </div>
           <div class="card bg-primary text-light m-3 p-3">
             <h3>Informations</h3>
-            <img src="./src/img/JStarGroupImage.jfif" alt="JStar Group Image" />
-            <ul>
-              <li>Members: +8,900</li>
-              <li>Games: 5</li>
-              <li>Clothes: 0</li>
-            </ul>
+            <img src="./src/img/JStarGroupImage.png" alt="JStar Group Image" />
+            <div class="container row row-cols-2">
+              <ul class="col d-flex flex-column align-items-end pe-1">
+                <li>Members:</li>
+                <li>Games:</li>
+                <li>Clothes:</li>
+              </ul>
+              <ul id="Group-Information" class="col ps-1"></ul>
+            </div>
             <a
               href="https://www.roblox.com/groups/6413764/JStars#!/about"
               target="_blank"
@@ -83,8 +99,12 @@
             </p>
             <a href="https://discord.gg/MMTPSydGjx" target="_blank">Discord</a>
             <a href="https://twitter.com/_JStars" target="_blank">Twitter</a>
-            <a href="https://www.tiktok.com/@javarini" target="_blank">Tiktok</a>
-            <a href="https://www.youtube.com/@javarini5487" target="_blank">Youtube</a>
+            <a href="https://www.tiktok.com/@javarini" target="_blank"
+              >Tiktok</a
+            >
+            <a href="https://www.youtube.com/@javarini5487" target="_blank"
+              >Youtube</a
+            >
           </div>
         </div>
       </section>
@@ -103,15 +123,12 @@
             </p>
             <div class="container row row-cols-2">
               <ul class="col">
+                <li>Likes:</li>
                 <li>Favorites:</li>
                 <li>Visits:</li>
                 <li>Created:</li>
               </ul>
-              <ul class="col">
-                <li>+2,000</li>
-                <li>+300k</li>
-                <li>7/27/2023</li>
-              </ul>
+              <ul id="JSDCO2-Information" class="col"></ul>
             </div>
             <a
               href="https://www.roblox.com/games/14207734586/JStars-Difficulty-Chart-Obby-2"
@@ -237,15 +254,12 @@
             </p>
             <div class="container row row-cols-2">
               <ul class="col">
+                <li>Likes:</li>
                 <li>Favorites:</li>
                 <li>Visits:</li>
                 <li>Created:</li>
               </ul>
-              <ul class="col">
-                <li>+5,000</li>
-                <li>+900k</li>
-                <li>1/9/2022</li>
-              </ul>
+              <ul id="JSDCO-Information" class="col"></ul>
             </div>
             <a
               href="https://www.roblox.com/games/8497630287/JStars-Difficulty-Chart-Obby"
