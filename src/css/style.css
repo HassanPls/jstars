@@ -8,12 +8,12 @@
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: black;
+  background: var(--blackJS);
 }
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 117, 255, 0.94);
+  background-color: var(--blueJS);
   border-radius: 10px;
-  border: solid black 3px;
+  border: solid var(--blackJS) 3px;
 }
 
 h1,
@@ -26,18 +26,21 @@ h5 {
 }
 
 h3 {
-  color: black;
+  color: var(--blackJS);
 }
 
 body {
-  background-color: black;
+  background-color: var(--blackJS);
   color: white;
   font-family: "Fredoka", Arial, Helvetica, sans-serif;
   overflow-x: hidden;
 }
 
 header {
-  background: linear-gradient(180deg, rgba(0, 117, 255, 0.94) 0%, black 100%);
+  background: linear-gradient(
+    180deg, 
+    var(--blueJS) 0%, 
+    var(--blackJS) 100%);
 }
 header ul {
   list-style-type: none;
@@ -48,7 +51,10 @@ main img {
 }
 
 footer {
-  background: linear-gradient(180deg, black 0%, rgba(0, 117, 255, 0.94) 100%);
+  background: linear-gradient(
+    180deg, 
+    var(--blackJS) 10% , 
+    var(--blueJS) 100%);
 }
 
 p {

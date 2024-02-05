@@ -13,7 +13,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  box-shadow: 0 0 20px rgba(0, 117, 255, 0.94);
+  box-shadow: 0 0 20px rgba(0, 117, 255, 0.5);
 }
 
 .carousel {
