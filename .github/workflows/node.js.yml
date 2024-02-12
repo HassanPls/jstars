@@ -37,8 +37,8 @@ jobs:
 
       - name: Execute JavaScript
         run: |
-          node src\js\GroupScript.js
-          node src\js\GameScript.js
+          node src/js/GroupScript.js
+          node src/js/GameScript.js
 
       - name: Stop json-server
         run: kill $(pgrep -f "json-server")
