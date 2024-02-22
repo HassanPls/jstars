@@ -1,13 +1,13 @@
 {
   "Group": {
-    "Members": "9,321",
+    "Members": "9,324",
     "Game": 5,
     "Clothes": 0,
     "Games": {
       "JSDCO2": {
-        "Likes": "1,127",
+        "Likes": "1,130",
         "Favorites": "3,405",
-        "Visits": "532.1K+",
+        "Visits": "532.8K+",
         "Created": "7/27/2023"
       },
       "JSDCO": {
@@ -25,7 +25,7 @@
       "TOG": {
         "Likes": "216",
         "Favorites": "464",
-        "Visits": "66.2K+",
+        "Visits": "66.3K+",
         "Created": "3/31/2022"
       }
     }
