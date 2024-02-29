@@ -40,7 +40,7 @@ header {
   background: linear-gradient(
     180deg, 
     var(--blueJS) 0%, 
-    var(--blackJS) 100%);
+    rgba(10, 10, 10, 0) 100%);
 }
 header ul {
   list-style-type: none;
@@ -72,5 +72,5 @@ a {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  z-index: 99;
+  z-index: 98;
 }

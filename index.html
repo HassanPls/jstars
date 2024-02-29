@@ -8,7 +8,7 @@
       name="description"
       content="A website to show all the really fun games from JStar Group in Roblox and a few more things."
     />
-    <meta name="keywords" content="roblox, games, jstar" />
+    <meta name="keywords" content="roblox,games,jstar,jstars,obby,javarini" />
     <meta name="author" content="HassanPls" />
 
     <meta property="og:title" content="JStars - All the productions" />
@@ -48,19 +48,20 @@
     <link rel="stylesheet" href="./src/css/style.css" />
     <link rel="stylesheet" href="./src/css/main-content.css" />
     <link rel="stylesheet" href="./src/css/responsive.css" />
+    <link rel="stylesheet" href="./src/css/animation.css">
   </head>
   <body>
     <header
       id="JStar"
       class="container-fluid pb-5 pt-2 d-flex justify-content-between align-items-center"
     >
-      <img src="./src/img/Jstars_Logo_White_64_Pixels.png" alt="JStar" />
+      <img id="right" src="./src/img/Jstars_Logo_White_64_Pixels.png" alt="JStar" />
       <h1>JStar</h1>
-      <img src="./src/img/Jstars_Logo_White_64_Pixels.png" alt="JStar" />
+      <img id="left" src="./src/img/Jstars_Logo_White_64_Pixels.png" alt="JStar" />
     </header>
 
     <main>
-      <section id="Home" class="my-5">
+      <section id="Home" class="my-4">
         <h2>Home</h2>
         <div
           class="container-fluid d-flex flex-wrap justify-content-center align-items-center"
@@ -77,6 +78,7 @@
             <a href="#Games3">JStar's Time Trial</a>
             <a href="#Games4">Tower Of Galaxy</a>
           </div>
+
           <div class="card bg-primary text-light m-3 p-3">
             <h3>Informations</h3>
             <img src="./src/img/JStarGroupImage.png" alt="JStar Group Image" />
@@ -94,6 +96,7 @@
               >Enter In Our Group!</a
             >
           </div>
+
           <div class="card bg-primary text-light m-3 p-3">
             <h3>Social Links</h3>
             <p>
@@ -113,13 +116,13 @@
         </div>
       </section>
 
-      <section id="Games" class="my-5">
-        <h2>Games</h2>
+      <section id="Games" class="my-4">
+        <h2 class="mb-4">Games</h2>
         <div
           id="Games1"
-          class="container-fluid row align-items-center justify-content-center"
+          class="container-fluid row gap-4 align-items-center justify-content-center"
         >
-          <div class="games card bg-primary text-light m-3 p-3">
+          <div class="left-animation games card bg-primary text-light p-3">
             <h3>JStar's Difficulty Chart Obby 2</h3>
             <p>
               An Obby With 16 Difficulties, With A Total Of 400 Stages And
@@ -140,9 +143,10 @@
               >Play Now!</a
             >
           </div>
+
           <div
             id="JSDCO2"
-            class="carousel slide m-3 d-flex justify-content-center align-items-center"
+            class="right-animation carousel slide d-flex justify-content-center align-items-center"
           >
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -196,11 +200,11 @@
 
         <div
           id="Games2"
-          class="invert-cards container-fluid row align-items-center justify-content-center"
+          class="invert-cards container-fluid row gap-4 align-items-center justify-content-center"
         >
           <div
             id="JSDCO"
-            class="carousel slide m-3 d-flex justify-content-center align-items-center"
+            class="left-animation carousel slide d-flex justify-content-center align-items-center"
           >
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -250,7 +254,8 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-          <div class="games card bg-primary text-light m-3 p-3">
+
+          <div class="right-animation games card bg-primary text-light p-3">
             <h3>JStar's Difficulty Chart Obby</h3>
             <p>
               An Obby With 21 Difficulties, With A Total Of 420 Stages And Many
@@ -275,9 +280,9 @@
 
         <div
           id="Games3"
-          class="container-fluid row align-items-center justify-content-center"
+          class="container-fluid row gap-4 align-items-center justify-content-center"
         >
-          <div class="games card bg-primary text-light m-3 p-3">
+          <div class="left-animation games card bg-primary text-light p-3">
             <h3>JStar's Time Trial</h3>
             <p>
               Test Your Limits And Records In This Time Trial With 14
@@ -299,9 +304,10 @@
               >Play Now!</a
             >
           </div>
+
           <div
             id="JSTT"
-            class="carousel slide m-3 d-flex justify-content-center align-items-center"
+            class="right-animation carousel slide d-flex justify-content-center align-items-center"
           >
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -355,11 +361,11 @@
 
         <div
           id="Games4"
-          class="invert-cards container-fluid row align-items-center justify-content-center"
+          class="invert-cards container-fluid row gap-4 align-items-center justify-content-center"
         >
           <div
             id="TOG"
-            class="carousel slide m-3 d-flex justify-content-center align-items-center"
+            class="left-animation carousel slide d-flex justify-content-center align-items-center"
           >
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -409,7 +415,8 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-          <div class="games card bg-primary text-light m-3 p-3">
+
+          <div class="right-animation games card bg-primary text-light p-3">
             <h3>Tower Of Galaxy</h3>
             <p>
               An Tower With 6 Randomly Generated Stages, Where Your Objective Is
