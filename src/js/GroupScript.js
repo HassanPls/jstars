@@ -27,9 +27,9 @@ fetch("http://localhost:3000/Group")
 
     await browser.close();
 
-    data.Members = members;
-    data.Game = games;
-    data.Clothes = clothes;
+    data.Info.Members = members;
+    data.Info.Game = games;
+    data.Info.Clothes = clothes;
 
     fetch("http://localhost:3000/Group", {
       method: "PUT",

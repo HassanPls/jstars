@@ -1,8 +1,10 @@
 {
   "Group": {
-    "Members": "9,372",
-    "Game": 5,
-    "Clothes": 0,
+    "Info": {
+      "Members": "9,369",
+      "Game": 5,
+      "Clothes": 0
+    },
     "Games": {
       "JSDCO2": {
         "Likes": "1,183",
