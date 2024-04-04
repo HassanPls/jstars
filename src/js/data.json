@@ -1,31 +1,31 @@
 {
   "Group": {
     "Info": {
-      "Members": "9,458",
+      "Members": "9,459",
       "Game": 5,
       "Clothes": 0
     },
     "Games": {
       "JSDCO2": {
-        "Likes": "1,294",
-        "Favorites": "3,936",
-        "Visits": "646.3K+",
+        "Likes": "1,296",
+        "Favorites": "3,940",
+        "Visits": "647.1K+",
         "Created": "7/27/2023"
       },
       "JSDCO": {
         "Likes": "3,022",
-        "Favorites": "5,822",
+        "Favorites": "5,819",
         "Visits": "978.3K+",
         "Created": "1/9/2022"
       },
       "JSTT": {
         "Likes": "40",
         "Favorites": "38",
-        "Visits": "4,008",
+        "Visits": "4,009",
         "Created": "4/11/2022"
       },
       "TOG": {
-        "Likes": "216",
+        "Likes": "217",
         "Favorites": "465",
         "Visits": "66.5K+",
         "Created": "3/31/2022"
