@@ -7,16 +7,24 @@
     },
     "Games": {
       "JSDCO2": {
-        "Likes": "1,183",
-        "Favorites": "3,595",
-        "Visits": "576.5K+",
+        "Title": "JStar's Difficulty Chart Obby 2",
+        "Description": "An Obby With 16 Difficulties, With A Total Of 400 Stages And Various Puzzles, Mini Games And Fun Things To Do Along The Way!",
+        "Img": "https://tr.rbxcdn.com/03f91edc19611229b8eb524e9c397ee4/150/150/Image/Webp",
+        "Link": "https://www.roblox.com/games/14207734586/",
+        "Likes": "1,326",
+        "Favorites": "4,014",
+        "Visits": "663.1K+",
         "Created": "7/27/2023"
       },
       "JSDCO": {
-        "Likes": "3,021",
-        "Favorites": "5,832",
-        "Visits": "977.4K+",
-        "Created": "1/9/2022"
+        "Title": "JStar's Difficulty Chart Obby",
+        "Description": "An Obby With 21 Difficulties, With A Total Of 420 Stages And Many Hidden Things To Discover!",
+        "Img": "https://tr.rbxcdn.com/dda2016d7f5ad767f62d532cf8f1370b/150/150/Image/Webp",
+        "Link": "https://www.roblox.com/games/8497630287/",
+        "Likes": "3,022",
+        "Favorites": "5,821",
+        "Visits": "978.6K+",
+        "Created": "7/27/2023"
       },
       "JSTT": {
         "Title": "JStar's Time Trial",
@@ -29,9 +37,13 @@
         "Created": "4/11/2022"
       },
       "TOG": {
-        "Likes": "216",
-        "Favorites": "464",
-        "Visits": "66.4K+",
+        "Title": "Tower Of Galaxy",
+        "Description": "An Tower With 6 Randomly Generated Stages, Where Your Objective Is To Reach The Top Of The Tower! Buy Mutators, Effects, Items And More To Enhance Your Fun!",
+        "Img": "https://tr.rbxcdn.com/db620195bbda22fe1975b38c1cf1b1fa/150/150/Image/Webp",
+        "Link": "https://www.roblox.com/games/9240693513/",
+        "Likes": "218",
+        "Favorites": "466",
+        "Visits": "66.6K+",
         "Created": "3/31/2022"
       },
       "DPM": {
