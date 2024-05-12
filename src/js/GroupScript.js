@@ -6,7 +6,7 @@ fetch("http://localhost:3000/Group")
     const browser = await chromium.launch();
     const page = await browser.newPage();
 
-    await page.goto("https://www.roblox.com/groups/6413764/JStars#!/about");
+    await page.goto("https://www.roblox.com/groups/6413764");
 
     const membersXPATH =
       "xpath=//html/body/div[3]/main/div[2]/div[1]/div/div/div[2]/div/div[1]/div[2]/div[2]/div[3]/ul/li[1]/span";

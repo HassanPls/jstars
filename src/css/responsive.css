@@ -1,11 +1,11 @@
 @media only screen and (max-width: 1097px) {
-  .invert-cards {
-    flex-direction: column-reverse !important;
+  #Games {
+    gap: 20px;
   }
 }
 
 @media only screen and (max-width: 540px) {
-  .games {
+  .card {
     max-height: none;
   }
 }

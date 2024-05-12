@@ -25,36 +25,64 @@ h5 {
   text-align: center;
 }
 
-h3 {
+#Home h3 {
   color: var(--blackJS);
 }
 
 body {
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=166383), auto;
   background-color: var(--blackJS);
   color: white;
   font-family: "Fredoka", Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+}
+
+a,
+button:not(:disabled),
+[type="button"]:not(:disabled),
+span {
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=183748), auto;
 }
 
 header {
-  background: linear-gradient(
-    180deg, 
-    var(--blueJS) 0%, 
-    rgba(10, 10, 10, 0) 100%);
+  background-color: var(--blueJS);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 98;
 }
-header ul {
-  list-style-type: none;
+
+header #box {
+  width: 100%;
+  padding: 2px;
+  height: 10px;
+  background-color: var(--blueJS);
+}
+header #box #indicator {
+  width: 100%;
+  height: 100%;
+  background-color: var(--blackJS);
+  border-radius: 20px;
 }
 
 main img {
   width: 150px;
 }
 
+.bg {
+  pointer-events: none;
+}
+
 footer {
-  background: linear-gradient(
-    180deg, 
-    var(--blackJS) 10% , 
-    var(--blueJS) 100%);
+  background-color: var(--blueJS);
 }
 
 p {

@@ -26,7 +26,7 @@
 
     <link
       rel="shortcut icon"
-      href="./src/img/Jstars_Logo_White_64_Pixels.png"
+      href="./src/img/Jstars_Logo_White.svg"
       type="image/x-icon"
     />
 
@@ -48,25 +48,31 @@
     <link rel="stylesheet" href="./src/css/style.css" />
     <link rel="stylesheet" href="./src/css/main-content.css" />
     <link rel="stylesheet" href="./src/css/responsive.css" />
-    <link rel="stylesheet" href="./src/css/animation.css">
+    <link rel="stylesheet" href="./src/css/animation.css" />
   </head>
   <body>
-    <header
-      id="JStar"
-      class="container-fluid pb-5 pt-2 d-flex justify-content-between align-items-center"
-    >
-      <img id="right" src="./src/img/Jstars_Logo_White_64_Pixels.png" alt="JStar" />
-      <h1>JStar</h1>
-      <img id="left" src="./src/img/Jstars_Logo_White_64_Pixels.png" alt="JStar" />
+    <div id="TopDiv"></div>
+    <header class="d-flex flex-column">
+      <div
+        id="header"
+        class="container-fluid p-3 d-flex justify-content-between align-items-center"
+      >
+        <img src="./src/img/Jstars_Logo_White.svg" alt="JStars Logo" />
+        <h1>JStar</h1>
+        <img src="./src/img/Jstars_Logo_White.svg" alt="JStars Logo" />
+      </div>
+      <div id="box">
+        <div id="indicator"></div>
+      </div>
     </header>
 
+    <img class="bg" src="./src/img/JSTARS.svg" alt="" />
+
     <main>
-      <section id="Home" class="my-4">
+      <section id="Home" class="my-4 flex-column">
         <h2>Home</h2>
-        <div
-          class="container-fluid d-flex flex-wrap justify-content-center align-items-center"
-        >
-          <div class="card bg-primary text-light m-3 p-3">
+        <div class="sectionContent flex-wrap gap-5">
+          <div class="card bg-primary text-light p-3">
             <h3>Description</h3>
             <p>
               Welcome to JStars, a group made by a single developer, that had a
@@ -79,7 +85,7 @@
             <a href="#Games4">Tower Of Galaxy</a>
           </div>
 
-          <div class="card bg-primary text-light m-3 p-3">
+          <div class="card bg-primary text-light p-3">
             <h3>Informations</h3>
             <img src="./src/img/JStarGroupImage.png" alt="JStar Group Image" />
             <div class="container row row-cols-2">
@@ -91,367 +97,65 @@
               <ul id="Group-Information" class="col ps-1"></ul>
             </div>
             <a
-              href="https://www.roblox.com/groups/6413764/"
+              rel="noopener"
+              href="https://www.roblox.com/groups/6413764"
               target="_blank"
               >Enter In Our Group!</a
             >
           </div>
 
-          <div class="card bg-primary text-light m-3 p-3">
+          <div class="card bg-primary text-light p-3">
             <h3>Social Links</h3>
             <p>
               All These Links Are To Suport The Game Development And Share
               Something About Them, Enter In All Of The Links To Suport The
               Development.
             </p>
-            <a href="https://discord.gg/MMTPSydGjx" target="_blank">Discord</a>
-            <a href="https://twitter.com/_JStars" target="_blank">Twitter</a>
-            <a href="https://www.tiktok.com/@javarini" target="_blank"
+            <a
+              rel="noopener"
+              href="https://discord.gg/MMTPSydGjx"
+              target="_blank"
+              >Discord</a
+            >
+            <a rel="noopener" href="https://twitter.com/_JStars" target="_blank"
+              >Twitter</a
+            >
+            <a
+              rel="noopener"
+              href="https://www.tiktok.com/@javarini"
+              target="_blank"
               >Tiktok</a
             >
-            <a href="https://www.youtube.com/@javarini5487" target="_blank"
+            <a
+              rel="noopener"
+              href="https://www.youtube.com/@javarini5487"
+              target="_blank"
               >Youtube</a
             >
           </div>
         </div>
       </section>
 
-      <section id="Games" class="my-4">
-        <h2 class="mb-4">Games</h2>
-        <div
-          id="Games1"
-          class="container-fluid row gap-4 align-items-center justify-content-center"
-        >
-          <div class="left-animation games card bg-primary text-light p-3">
-            <h3>JStar's Difficulty Chart Obby 2</h3>
-            <p>
-              An Obby With 16 Difficulties, With A Total Of 400 Stages And
-              Various Puzzles, Mini Games And Fun Things To Do Along The Way!
-            </p>
-            <div class="container row row-cols-2">
-              <ul class="col">
-                <li>Likes:</li>
-                <li>Favorites:</li>
-                <li>Visits:</li>
-                <li>Created:</li>
-              </ul>
-              <ul id="JSDCO2-Information" class="col"></ul>
-            </div>
-            <a
-              href="https://www.roblox.com/games/14207734586/"
-              target="_blank"
-              >Play Now!</a
-            >
-          </div>
+      <section id="Games" class="my-4 flex-column">
+        <h2>Games</h2>
+        <div class="sectionContent flex-wrap gap-5">
 
-          <div
-            id="JSDCO2"
-            class="right-animation carousel slide d-flex justify-content-center align-items-center"
-          >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="https://tr.rbxcdn.com/50af46bbeb6ea742d307a60fba0c9830/768/432/Image/Png"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="https://tr.rbxcdn.com/63322c5daddf19e253c0f93437715adb/768/432/Image/Png"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="https://tr.rbxcdn.com/609923db1252c7547bc40a1dc00646e7/768/432/Image/Png"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#JSDCO2"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#JSDCO2"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
 
-        <div
-          id="Games2"
-          class="invert-cards container-fluid row gap-4 align-items-center justify-content-center"
-        >
-          <div
-            id="JSDCO"
-            class="left-animation carousel slide d-flex justify-content-center align-items-center"
-          >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="https://tr.rbxcdn.com/439c4a5bc6e61633bf0a5189a9121bc5/768/432/Image/Png"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="https://tr.rbxcdn.com/e5a1dd6c133f24dd88b13cfc1d9b18c4/768/432/Image/Png"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="https://tr.rbxcdn.com/b3cf739fac7bc76d96e553ff7f51594c/768/432/Image/Png"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#JSDCO"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#JSDCO"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
-          <div class="right-animation games card bg-primary text-light p-3">
-            <h3>JStar's Difficulty Chart Obby</h3>
-            <p>
-              An Obby With 21 Difficulties, With A Total Of 420 Stages And Many
-              Hidden Things To Discover!
-            </p>
-            <div class="container row row-cols-2">
-              <ul class="col">
-                <li>Likes:</li>
-                <li>Favorites:</li>
-                <li>Visits:</li>
-                <li>Created:</li>
-              </ul>
-              <ul id="JSDCO-Information" class="col"></ul>
-            </div>
-            <a
-              href="https://www.roblox.com/games/8497630287/"
-              target="_blank"
-              >Play Now!</a
-            >
-          </div>
-        </div>
-
-        <div
-          id="Games3"
-          class="container-fluid row gap-4 align-items-center justify-content-center"
-        >
-          <div class="left-animation games card bg-primary text-light p-3">
-            <h3>JStar's Time Trial</h3>
-            <p>
-              Test Your Limits And Records In This Time Trial With 14
-              Difficulties! Unlock Titles, Chat Tags, Trails, And More!
-              (Contains Automatic Leaderboards)
-            </p>
-            <div class="container row row-cols-2">
-              <ul class="col">
-                <li>Likes:</li>
-                <li>Favorites:</li>
-                <li>Visits:</li>
-                <li>Created:</li>
-              </ul>
-              <ul id="JSTT-Information" class="col"></ul>
-            </div>
-            <a
-              href="https://www.roblox.com/games/9337507529/"
-              target="_blank"
-              >Play Now!</a
-            >
-          </div>
-
-          <div
-            id="JSTT"
-            class="right-animation carousel slide d-flex justify-content-center align-items-center"
-          >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="https://tr.rbxcdn.com/7ce7a64885da7b45d8d994f183b576c4/768/432/Image/Png"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="https://tr.rbxcdn.com/9ce02cdcd81fea46f92c233cf90f6e50/768/432/Image/Png"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="https://tr.rbxcdn.com/054e7305ea326798ca0344c878a639af/768/432/Image/Png"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#JSTT"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#JSTT"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-
-        <div
-          id="Games4"
-          class="invert-cards container-fluid row gap-4 align-items-center justify-content-center"
-        >
-          <div
-            id="TOG"
-            class="left-animation carousel slide d-flex justify-content-center align-items-center"
-          >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="https://tr.rbxcdn.com/8c1b7d7e125cf2913a2b42db7e7c5ab1/768/432/Image/Png"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="https://tr.rbxcdn.com/622cf6f7963bb9fb0ea7aaf0a9ad8f8d/768/432/Image/Png"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="https://tr.rbxcdn.com/5ceb9fc6bbfc542158cfcdd7f297d4dd/768/432/Image/Png"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-            </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#TOG"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#TOG"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
-          <div class="right-animation games card bg-primary text-light p-3">
-            <h3>Tower Of Galaxy</h3>
-            <p>
-              An Tower With 6 Randomly Generated Stages, Where Your Objective Is
-              To Reach The Top Of The Tower! Buy Mutators, Effects, Items And
-              More To Enhance Your Fun!
-            </p>
-            <div class="container row row-cols-2">
-              <ul class="col">
-                <li>Likes:</li>
-                <li>Favorites:</li>
-                <li>Visits:</li>
-                <li>Created:</li>
-              </ul>
-              <ul id="TOG-Information" class="col"></ul>
-            </div>
-            <a
-              href="https://www.roblox.com/games/9240693513/"
-              target="_blank"
-              >Play Now!</a
-            >
-          </div>
+          
         </div>
       </section>
     </main>
 
-    <a id="Top" href="#JStar"><img src="./src/img/Top.png" alt="Top" /></a>
+    <a id="Top" href="#TopDiv"><img src="./src/img/Top.png" alt="Top" /></a>
 
-    <footer
-      class="pt-5 pb-2 d-flex justify-content-center align-items-center gap-3"
-    >
+    <footer class="p-3 d-flex justify-content-center align-items-center gap-3">
       <p>
         <a href="mailto:JStarsCompany@gmail.com">JStarsCompany@gmail.com</a
         ><br />
         This website was made by
-        <a href="https://twitter.com/Hassan_pls" target="_blank">HassanPls</a>
+        <a rel="noopener" href="https://twitter.com/Hassan_pls" target="_blank"
+          >HassanPls</a
+        >
       </p>
     </footer>
 

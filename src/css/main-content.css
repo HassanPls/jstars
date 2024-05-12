@@ -1,33 +1,58 @@
-section {
+section, .sectionContent {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   width: 100%;
+  min-height: 480px;
 }
 
 .card {
-  width: 450px;
-  height: 400px;
   border-radius: 20px;
+  opacity: 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  box-shadow: 0 0 20px rgba(0, 117, 255, 0.5);
+  box-shadow: 0 0 20px rgba(0, 117, 255, 1);
 }
 
-.carousel {
-  width: 500px;
-  height: 300px;
-  padding: 0;
+#Games .card {
+  border: 6px solid var(--blueJS);
+  max-width: 500px;
+  min-height: 380px;
 }
 
-.games {
-  width: 500px;
-  max-height: 350px;
+#Games .card img {
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
 }
 
-.card a {
+#Games .card img:hover {
+  transform: scale(1.05);
+}
+
+#Games .card .row {
+  width: 250px;
+}
+
+#Home .card {
+  width: 450px;
+  height: 400px;
+}
+
+#Games .card a {
+  width: 90%;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: transform 0.25s ease-out;
+}
+
+#Home .card a {
   width: 90%;
   text-align: center;
   padding: 5px;

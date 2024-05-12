@@ -1,33 +1,60 @@
-header {
+header #header {
   animation: loader 3s;
 }
 
 header img {
-  max-width: 100%;
-  height: auto;
   animation: spin 3s;
 }
 header h1 {
   animation: fontSize 3s;
 }
 
-#Home .card {
-  animation: appear 3s ease-in-out;
+#Home .card,
+.bg,
+.cardAppear {
+  animation: appear 3s ease-in-out forwards;
+}
+
+header #box #indicator {
+  animation: scroll 1ms ease-in-out;
+  animation-timeline: scroll();
+}
+
+@keyframes scroll {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
 }
 
 @keyframes appear {
-  0% {opacity: 0; transform: scale(0.3);}
-  100% {opacity: 1;transform: scale(1);}
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 @keyframes fontSize {
-  0% {font-size: 4rem;}
-  100% {}
+  0% {
+    font-size: 4rem;
+  }
+  100% {
+  }
 }
 
 @keyframes spin {
-  0% {transform: rotate(360deg);}
-  100% {transform: rotate(0deg);}
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 @keyframes loader {
@@ -35,42 +62,10 @@ header h1 {
     z-index: 99;
     height: 100vh;
     justify-content: space-around;
-    background: linear-gradient(
-      180deg,
-      var(--blueJS) 0%,
-      rgba(10, 10, 10, 1) 100%
-    );
   }
 
   100% {
-    height: 120px;
+    height: 85px;
     justify-content: space-between;
-    background: linear-gradient(
-      180deg,
-      var(--blueJS) 0%,
-      rgba(10, 10, 10, 0) 100%
-    );
   }
-}
-
-.left-animation {
-  animation: 1ms linear forwards leftAnimation;
-  animation-timeline: view();
-  animation-range: cover 0% cover 25%;
-}
-
-.right-animation {
-  animation: 1ms linear forwards rightAnimation;
-  animation-timeline: view();
-  animation-range: cover 0% cover 25%;
-}
-
-@keyframes leftAnimation {
-  from {opacity: 0;transform: translateX(-100vw);}
-  to {opacity: 1;transform: translateX(0);}
-}
-
-@keyframes rightAnimation {
-  from {opacity: 0;transform: translateX(100vw);}
-  to {opacity: 1;transform: translateX(0);}
 }
