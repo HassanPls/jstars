@@ -9,7 +9,7 @@ on:
       - main
 
   schedule:
-    - cron: "0 0,12 * * 0-6"
+    - cron: "0 0 * * 0-6"
 
 jobs:
   build:
@@ -43,7 +43,13 @@ jobs:
       - name: Stop json-server
         run: kill $(pgrep -f "json-server")
 
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --exit-code src/js/data.json || echo "::set-output name=changed::true"
+
       - name: Commit changes
+        if: steps.check_changes.outputs.changed == 'true'
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
