@@ -1,0 +1,204 @@
+/**
+ * @name JStars
+ * @author HassanPls
+ * @description A theme about the JStars group aesthetics
+ * @version 1
+ * @website https://javarini.github.io/jstars/
+ */
+
+/* Make sure if the dark mode was apply in settings */
+
+:root,
+.theme-dark {
+  --blueJS: rgb(0, 90, 200);
+  --bluegrayJS: rgb(130, 180, 255);
+  --bluewhiteJS: rgb(0, 130, 255);
+  --bluedarkJS: rgb(0, 60, 200);
+  --blackJS: rgb(0, 0, 0);
+  --whiteJS: rgb(255, 255, 255);
+  --grayJS: rgb(50, 50, 50);
+  --darkgrayJS: rgb(20, 20, 20);
+  --greenJS: rgb(30, 200, 30);
+  --darkgreenJS: rgb(40, 100, 40);
+  --redJS: rgb(255, 0, 0);
+  --darkredJS: rgb(100, 0, 0);
+
+  --background-primary: var(--blackJS);
+  --background-secondary: var(--blackJS);
+  --background-secondary-alt: var(--blackJS);
+  --background-tertiary: var(--blackJS);
+
+  --home-background: var(--blackJS);
+  
+  --modal-background: var(--blackJS); 
+  --modal-footer-background: var(--blackJS);
+
+  --button-secondary-background: var(--blueJS);
+
+  --background-accent: var(--blueJS);
+
+  --scrollbar-auto-scrollbar-color-thumb: var(--blueJS);
+  --scrollbar-auto-scrollbar-color-track: var(--blackJS);
+  --scrollbar-auto-thumb: var(--blueJS);
+  --scrollbar-auto-track: var(--blackJS);
+  --scrollbar-thin-thumb: var(--blueJS);
+  --scrollbar-thin-track: var(--blackJS);
+
+  --background-modifier-selected: var(--blueJS);
+  --background-modifier-hover: var(--bluedarkJS);
+  --background-modifier-active: var(--bluewhiteJS);
+
+  --background-modifier-accent: var(--blueJS);
+  --background-modifier-accent-2: var(--blueJS);
+
+  --background-floating: var(--blackJS);
+
+  --channeltextarea-background: var(--blackJS);
+
+  --input-background: var(--blackJS);
+
+  --activity-card-background: var(--blackJS);
+
+  --button-outline-positive-background-active: var(--greenJS);
+  --button-outline-positive-border-active: var(--greenJS);
+  --button-positive-background-active: var(--greenJS);
+  --button-positive-background: var(--greenJS);
+  --halo-positive: var(--greenJS);
+
+  --status-online: var(--greenJS);
+  --status-positive: var(--greenJS);
+  --status-positive-background: var(--darkgreenJS);
+
+  --polls-victor-fill: var(--greenJS);
+
+  --status-speaking: var(--blueJS);
+  --text-positive: var(--greenJS);
+
+  --status-danger: var(--redJS);
+  --button-danger-background: var(--redJS);
+
+  --brand-experiment: var(--blueJS);
+}
+
+/* Botões de adicionar/procurar servidor */
+[class^="circleIconButton"][class*="selected"] {
+  color: var(--whiteJS);
+  background-color: var(--blueJS);
+}
+[class^="circleIconButton"] {
+  color: var(--whiteJS);
+}
+
+/* popout*/
+[id^="popout_"] {
+  border: 1px solid var(--blueJS);
+}
+
+[class^="focusLock"] {
+  border: 1px solid var(--blueJS);
+}
+
+
+/* Container da call */
+[class^="callContainer"] {
+  border-bottom: solid 1px var(--blueJS);
+}
+
+/* Cor do circulo ao falar */
+[class^="border_"][class*="speaking_"] {
+  box-shadow: inset 0 0 0 2px var(--blueJS), inset 0 0 0 3px var(--blackJS);
+}
+
+/* Caixa para digitar */
+[class^="searchBarComponent"], [class^="toolbar"] [class*="searchBar"], [class^="channelTextArea"]{
+  border: solid 1px var(--blueJS);
+  background-color: var(--blackJS);
+}
+
+/* Topo do aplicativo */
+[class^="typeWindows"] {
+  background-color: var(--blackJS);
+  border-bottom: solid 1px var(--blueJS);
+  margin: 0px;
+  padding-top: 4px;
+}
+[class^="typeWindows"] > * {
+  color: var(--whiteJS);
+}
+
+/* Botão de sair da call */
+[class^="colorable"][class*="red_"] {
+  background: var(--redJS);
+}
+
+/* Paineis de call/jogo */
+[class^="panels"] div > * {
+  border-bottom: none;
+}
+[class^="panels"] > * {
+  border-bottom: none;
+  border-top: 1px solid var(--blueJS);
+}
+
+/* Botão para entrar em call */
+[class*="green"] {
+  background: var(--greenJS) !important;
+}
+
+/* Botão inicial */
+nav[class*="guilds"] [class*="tutorialContainer"] [class*="listItemWrapper"] [class*="childWrapper"] {
+  background: url(https://raw.githubusercontent.com/HassanPls/jstars/refs/heads/main/src/img/Jstars_Logo_White.svg)
+    center no-repeat;
+  background-size: 60%;
+  border-radius: 10px;
+  background-color: var(--blueJS);
+}
+
+[class^="childWrapper"] > svg {
+  display: none;
+}
+
+/* Autocompletar */
+[class^='autocomplete_'] {
+  background: var(--blackJS);
+  border: 1px solid var(--blueJS);
+  box-shadow: 0 0 10px var(--blackJS);
+}
+
+/* Topo do nome do canal */
+[class^="subtitleContainer"], [class^="base_"] [class*="sidebar_"] + div section, [class^="base_"] [class*="sidebar_"] + main section {
+  border-bottom: 1px solid var(--blueJS);
+}
+
+/* Side bar */
+[class^="base_"] [class*="sidebar_"] {
+  margin: 10px 5px;
+  border: 1px solid var(--blueJS);
+  background-color: var(--blackJS);
+  border-radius: 10px !important;
+}
+
+[class^="wrapper"][class*="guilds"] { /* servidores */
+  padding: 5px 0px;
+  margin: 10px 5px 10px 0px;
+  border: 1px solid var(--blueJS);
+  border-left-width: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+[class^="base_"] [class*="sidebar_"] + div, [class^="base_"] [class*="sidebar_"] + main { /* Containers de cada aba */
+  margin: 10px 0px 10px 5px;
+  border: 1px solid var(--blueJS);
+  border-right-width: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+[class^="chat"] [class^="content"] main + div {
+  border-left: 1px solid var(--blueJS);
+}
+
+[class^="layer"][class*="baseLayer"] {
+  background-color: rgb(0, 0, 30);
+}
